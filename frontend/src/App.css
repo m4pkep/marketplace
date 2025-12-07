@@ -73,10 +73,23 @@ body {
   border-radius: 6px;
   background: white;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 15px;
+}
+
+.create-ad-btn {
+  padding: 8px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .header-btn:hover {
+  background: #f5f5f5;
+}
+
+.create-ad-btn:hover {
   background: #f5f5f5;
 }
 

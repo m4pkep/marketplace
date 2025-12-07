@@ -1,12 +1,10 @@
-// src/components/Header/Header.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // Добавляем Link
 import './Header.css';
 
 function Header() {
   const categories = [
-    'Авто', 'Недвижимость', 'Работа', 'Услуги', 
-    'Электроника', 'Для дома и дачи', 'Запчасти', 'Одежда'
+    'Авто', 'Недвижимость', 'Работа', 'Услуги'
   ];
 
   return (
@@ -27,13 +25,16 @@ function Header() {
         </div>
         <div className="header-actions">
           <button className="header-btn">Войти</button>
-          <button className="header-btn">Подать объявление</button>
+          {/* Меняем на Link */}
+          <Link to="/create-ad" className="create-ad-btn">
+            Разместить объявление
+          </Link>
         </div>
       </div>
       
       <nav className="categories-nav">
         <div className="all-categories">
-          <span>🎯 Все категории</span>
+          <span>Все категории</span>
         </div>
         {categories.map((category, index) => (
           <a key={index} href="#!" className="nav-link">{category}</a>

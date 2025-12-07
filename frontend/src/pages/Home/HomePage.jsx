@@ -17,6 +17,11 @@ function HomePage() {
     { id: 2, title: 'MacBook Air M1', price: '85 000 ₽', location: 'Санкт-Петербург', date: 'Вчера' },
     { id: 3, title: 'Квартира 45 м²', price: '12 000 000 ₽', location: 'Москва', date: '2 дня назад' },
     { id: 4, title: 'Toyota Camry 2018', price: '1 800 000 ₽', location: 'Казань', date: 'Сегодня' },
+    
+    { id: 5, title: 'Toyota Camry 2018', price: '1 800 000 ₽', location: 'Казань', date: 'Сегодня' },
+    { id: 6, title: 'Toyota Camry 2018', price: '1 800 000 ₽', location: 'Казань', date: 'Сегодня' },
+    { id: 7, title: 'Toyota Camry 2018', price: '1 800 000 ₽', location: 'Казань', date: 'Сегодня' },
+    { id: 8, title: 'Toyota Camry 2018', price: '1 800 000 ₽', location: 'Казань', date: 'Сегодня' },
   ];
 
   return (
