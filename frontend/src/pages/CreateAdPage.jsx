@@ -198,7 +198,7 @@ function CreateAdPage() {
                       onChange={handleChange}
                     >
                       <option value="new">Новое</option>
-                      <option value="used">Б/у</option>
+                      <option value="used">Б/У</option>
                       <option value="broken">Требует ремонта</option>
                     </select>
                   </div>
